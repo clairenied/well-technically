@@ -30,7 +30,7 @@ const Layout = props => (
         ul {
           list-style: none;
         }
-    `}
+      `}
     </style>
   </div>
 );

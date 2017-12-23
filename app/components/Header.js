@@ -3,12 +3,19 @@ import Link from 'next/link';
 
 export default () => (
   <div className="header-container">
-    <Link href="/">
-      <a>Episodes</a>
-    </Link>
-    <Link href="/about">
-      <a>About</a>
-    </Link>
+    <div>
+      <Link href="/">
+        <a>Episodes</a>
+      </Link>
+    </div>
+    <div>
+      <Link href="/about">
+        <a>About</a>
+      </Link>
+      <Link href="/sponsor">
+        <a>Sponsor</a>
+      </Link>
+    </div>
     <style jsx="true">
       {`
         .header-container {
@@ -21,7 +28,7 @@ export default () => (
           padding: 14px;
         }
 
-        .header-container > a {
+        .header-container > div > a {
           margin-right: 14px;
           color: #eee;
         }

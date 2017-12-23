@@ -3,25 +3,30 @@ import EpisodeLink from '../app/components/EpisodeLink';
 
 
 const indexHeaderStyles = {
-  display: 'inline-block',
-  width: '100%',
-  textAlign: 'center',
-  height: '80vh',
-  minHeight: '420px',
-  backgroundColor: '#000',
-  color: '#fff',
-};
-
-const indexHeaderStylesH1 = {
-  fontSize: '70px',
-  fontWeight: '300',
+  container: {
+    display: 'inline-block',
+    width: '100%',
+    textAlign: 'center',
+    height: '80vh',
+    minHeight: '420px',
+    backgroundColor: '#000',
+    color: '#fff',
+  },
+  h1: {
+    fontSize: '70px',
+    fontWeight: '300',
+  },
+  p: {
+    fontSize: '21px',
+    fontWeight: '400',
+  },
 };
 
 const index = () => (
   <Layout>
 
-    <div style={indexHeaderStyles}>
-      <h1 style={indexHeaderStylesH1}>Well, Technically</h1>
+    <div style={indexHeaderStyles.container}>
+      <h1 style={indexHeaderStyles.h1}>Well, Technically</h1>
     </div>
 
     <div className="container">
