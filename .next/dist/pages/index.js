@@ -16,7 +16,7 @@ var _propTypes = require('prop-types');
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
-var _Layout = require('../app/components/Layout/Layout');
+var _Layout = require('../app/components/Layout');
 
 var _Layout2 = _interopRequireDefault(_Layout);
 

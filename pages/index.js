@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import PropTypes from 'prop-types';
 
-import Layout from '../app/components/Layout/Layout';
+import Layout from '../app/components/Layout';
 
 
 const EpisodeLink = props => (
