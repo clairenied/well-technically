@@ -12,13 +12,18 @@ export default () => (
     <style jsx="true">
       {`
         .header-container {
+          background-color: #000;
+          color: #fff;
           width: 100%;
           display: flex;
           justify-content: space-between;
+          margin: 0;
+          padding: 14px;
         }
 
         .header-container > a {
           margin-right: 14px;
+          color: #eee;
         }
       `}
     </style>
