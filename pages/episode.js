@@ -1,12 +1,13 @@
 import PropTypes from 'prop-types';
 
 import Layout from '../app/components/Layout';
-
+import Content from '../app/components/Content';
 
 const episode = props => (
   <Layout>
-    <h1>{props.url.query.title}</h1>
-    <p>Lorem ipsum woo</p>
+    <Content title={props.url.query.title}>
+      <p>Lorem ipsum woo</p>
+    </Content>
   </Layout>
 );
 

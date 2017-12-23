@@ -23,12 +23,14 @@ const Layout = props => (
         }
 
         .container {
-          width: 720px;
+          max-width: 720px;
           margin: 0 auto;
+          padding: 28px;
         }
 
         ul {
           list-style: none;
+          padding: 0;
         }
       `}
     </style>
