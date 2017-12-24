@@ -26,7 +26,7 @@ const index = () => (
   <Layout>
 
     <div style={indexHeaderStyles.container}>
-      <h1 style={indexHeaderStyles.h1}>Well, Technically</h1>
+      <i><h1 style={indexHeaderStyles.h1}>Well, Technically</h1></i>
     </div>
 
     <div className="container">
