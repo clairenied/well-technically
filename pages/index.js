@@ -46,9 +46,9 @@ const index = () => (
         <i>Well Technically</i> is an upcoming podcast by and about female-identified programmers. We are boosting female voices and changing the discourse around women who code. If you would like to be interviewed, <a href="https://docs.google.com/forms/d/e/1FAIpQLSdj-k97RE8JsghvLs3r-zAR96cggVlYSYI5QVxmGQMF5fhcTQ/viewform?usp=sf_link">we would love to hear from you!</a>
       </p>
 
-      <p>
+      {/* <p>
         If you are interested in becoming a sponsor, click <a href="mailto:welltechnicallypodcast@gmail.com?Subject=Sponsor" target="_top">here</a>.
-      </p>
+      </p> */}
 
       {/* <ul>
         <EpisodeLink

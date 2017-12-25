@@ -12,9 +12,9 @@ export default () => (
       {/* <Link href="/about">
         <a>About</a>
       </Link> */}
-      <Link href="/sponsor">
+      {/* <Link href="/sponsor">
         <a>Sponsor</a>
-      </Link>
+      </Link> */}
     </div>
     <style jsx="true">
       {`
