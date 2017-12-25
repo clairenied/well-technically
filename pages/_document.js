@@ -1,6 +1,5 @@
 import Document, { Head, Main, NextScript } from 'next/document';
 import flush from 'styled-jsx/server';
-import { initGA, logPageView } from './analytics';
 
 export default class WTDocument extends Document {
   static getInitialProps({ renderPage }) {
@@ -20,14 +19,6 @@ export default class WTDocument extends Document {
       chunks,
       styles,
     };
-  }
-
-  componentDidMount() {
-    if (!window.GA_INITIALIZED) {
-      initGA()
-      window.GA_INITIALIZED = true;
-    }
-    logPageView();
   }
 
   render() {
