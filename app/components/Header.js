@@ -5,13 +5,13 @@ export default () => (
   <div className="header-container">
     <div>
       <Link href="/">
-        <a>Episodes</a>
+        <a>Home</a>
       </Link>
     </div>
     <div>
-      <Link href="/about">
+      {/* <Link href="/about">
         <a>About</a>
-      </Link>
+      </Link> */}
       <Link href="/sponsor">
         <a>Sponsor</a>
       </Link>
